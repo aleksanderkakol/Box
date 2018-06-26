@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    transition: 0.4s;
+}
+
+.flex:hover {
+    background-color: tomato;
+    transform: scale(0.7);
+}
