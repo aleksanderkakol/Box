@@ -43,7 +43,13 @@ window.addEventListener('mousemove', function (event) {
         }
     }
 
+    if (posX < 0) {
+	posX = 0;
+    }
+
+    else if (posY < 0) {
+	posY = 0;
+    }
     fly.style.left = posX+'px';
     fly.style.top = posY+'px';
-
 });
